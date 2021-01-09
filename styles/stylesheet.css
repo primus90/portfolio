@@ -1,0 +1,38 @@
+<style>
+
+    body {
+      background-color: grey;
+      font-style: italic;
+    }
+
+    h1 {
+      color: red;
+      font-style: oblique;
+      text-align: center;
+    }
+
+    #project-descriptor {
+      color: blue;
+      font-style: italic;
+      font-size: large;
+    }
+
+    .site-nav {
+      color: blue;
+      border-style: solid;
+      background-color: white;
+      border-width: 2px;
+      border-color: black;
+      text-align: center;
+    }
+
+    .site-p {
+      color: blue;
+      text-align: center;
+
+    }
+
+
+
+
+</style>
