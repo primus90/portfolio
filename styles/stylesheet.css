@@ -33,25 +33,7 @@
 
     }
 
-    .html-project {
 
-      background-color: lightgrey;
-      border-style: solid;
-      border-width: 3px;
-      border-color: black;
-      text-align: center;
-      font-family: 'Imbue', serif;
-    
-
-    }
-
-    .r-projects {
-      background-color: rgb(180, 180, 180);
-      text-align: center;
-      border-style: solid;
-      border-width: medium;
-      border-color: black;
-    }
 
     .footer-area {
       text-align: right;
@@ -60,12 +42,43 @@
     #project-descriptor {
       color: green;
       text-align: center;
+      font-family: 'Imbue', serif;
     }
 
     .fa-atom {
       color: red;
       text-align: center;
       width: 100%;
+    }
+
+    .container {
+
+      display: flex;
+      flex-direction: row;
+      border-style: solid;
+
+
+    }
+
+    .r-box {
+      flex-grow: 1;
+      background-color: lightgrey;
+
+    }
+
+    .html-box {
+      flex-grow: 1;
+      background-color: grey;
+
+    }
+
+    #article-header {
+      color: red;
+      text-align: center;
+      font-size: large;
+      border-top: solid;
+      border-color: black;
+      margin-top: 5rem;
     }
 
 
