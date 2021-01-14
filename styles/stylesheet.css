@@ -33,6 +33,12 @@
 
     }
 
+    .site-p a:hover {
+      color: green;
+    }
+
+
+
 
 
     .footer-area {
@@ -71,6 +77,8 @@
       background-color: grey;
 
     }
+
+    .html-box a:visited {color: red; font-size: 20em;}
 
     #article-header {
       color: red;
