@@ -72,6 +72,11 @@
 
     }
 
+    .r-box img:hover {
+      border: solid;
+      border-color: green;
+    }
+
     .html-box {
       flex-grow: 1;
       background-color: grey;
