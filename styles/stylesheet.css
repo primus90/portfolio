@@ -94,6 +94,42 @@
       margin-top: 5rem;
     }
 
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: 100%;
+      box-sizing: border-box;
+      display: block;
+      margin: 1rem;
+    }
+
+    .education-level {
+      border: none;
+      background-color: lightgrey;
+      margin: 1rem;
+      color: blue;
+      font-style: oblique;
+      width: 15rem;
+    }
+
+    input[type=submit] {
+      width: 10%;
+      background-color: lightgrey;
+    }
+
+    .name {
+
+      display: flex;
+      flex-direction: row;
+      border-style: solid;
+      margin-bottom: 2rem;
+      width: 25rem;
+      padding: 1rem;
+      color: blue;
+
+
+    }
+
+
 
 
 

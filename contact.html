@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+
+    <form method="post">
+
+     <div class="name">
+        <label>First Name:
+          <input type="text" name="firstName">
+        </label>
+
+        <label>Last Name:
+          <input type="text" name="lastName">
+        </label>
+      </div>
+
+      <label>Your email:
+        <input type="email" name="contactEmail">
+      </label>
+
+      <fieldset class="checkbox">
+        <legend>What programming languages are you interested in?</legend>
+        <label>R
+          <input type="checkbox" name="type" value="r">
+          <span class="checkmark"></span>
+        </label>
+        <label>C
+          <input type="checkbox" name="type" value="c">
+          <span class="checkmark"></span>
+        </label>
+        <label>Java
+          <input type="checkbox" name="type" value="java">
+          <span class="checkmark"></span>
+        </label>
+        <label>Python
+          <input type="checkbox" name="type" value="python">
+          <span class="checkmark"></span>
+        </label>
+      </fieldset>
+     <div class="education-level">
+        <label class="education-level">What is your education level?
+          <select name="education">
+            <option value="highschool">Up to high school</option>
+            <option value="bachelors">Bachelors</option>
+            <option value="masters">Masters</option>
+            <option value="doctor">Phd</option>
+          </select>
+        </label>
+      </div>
+
+      <label class="project-description">Please enter a description of your project?
+        <textarea name="projectDescription" rows="6" cols="70"></textarea>
+      </label>
+
+      <input type="submit" value="Contact Me">
+
+
+
+
+
+    </form>
+
+  </body>
+</html>
