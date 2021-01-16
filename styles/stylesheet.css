@@ -106,9 +106,10 @@
       border: none;
       background-color: lightgrey;
       margin: 1rem;
-      color: black;
-      font-style: oblique;
+      color: blue;
+      font-style: italic;
       width: 15rem;
+      padding: 1rem;
     }
 
     input[type=submit] {
@@ -130,10 +131,21 @@
 
     }
 
+    .name label {
+      color: blue;
+      font-style: italic;
+    }
+
     .checkbox-container {
       background-color: lightgrey;
       width: 25rem;
       padding: 1rem;
+      color: blue;
+      font-style: italic;
+    }
+
+    .checkbox-container label {
+      color: blue;
     }
 
     input[type=email]:focus {
@@ -144,6 +156,15 @@
     input[type=text]:focus {
       background-color: lightblue;
       outline: none;
+    }
+
+    .project-description {
+      color: blue;
+      font-style: italic;
+    }
+
+    .project-description textarea:focus {
+      background-color: lightblue;
     }
 
 
