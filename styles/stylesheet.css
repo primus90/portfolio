@@ -161,10 +161,16 @@
     .project-description {
       color: blue;
       font-style: italic;
+
     }
 
     .project-description textarea:focus {
       background-color: lightblue;
+    }
+
+    .email-label {
+      color: blue;
+      font-style: italic;
     }
 
 
